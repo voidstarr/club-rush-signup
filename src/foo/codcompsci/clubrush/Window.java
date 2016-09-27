@@ -83,7 +83,7 @@ public class Window implements ActionListener {
 	private void submit() {
 
 		String name = textField.getText();
-		String email = textField.getText();
+		String email = textField2.getText();
 		if (name.equalsIgnoreCase("") || email.equalsIgnoreCase("")) {
 			return;
 		}
